@@ -12,11 +12,7 @@ function App() {
   return (
     <div className= "min-h-screen py-10 sm: px-5 bg-gray-100">
       <LandingPage/>
-      <Card/>
-      <About/>
-      <Skills/>
-      <Contact/>
-      <Footer/>
+      
     </div>
   )
 }
