@@ -20,7 +20,7 @@ const NavBar = () => {
                         <a href='#about' className='hover:text-dominant transition text-lg scroll-smooth'>About</a>
                     </li>
                     <li>
-                        <a href='#home' className='hover:text-dominant transition text-lg'>Projects</a>
+                        <a href='#projects' className='hover:text-dominant transition text-lg'>Projects</a>
                     </li>
                 </ul>
 
