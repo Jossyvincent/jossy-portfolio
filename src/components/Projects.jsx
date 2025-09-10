@@ -1,6 +1,7 @@
 import React from 'react'
 import aquarech from '../assets/AquarechProject.jpeg';
 import web from '../assets/webProject.png'
+import health from '../assets/healthapp.jpeg';
 
 const Projects = () => {
   return (
@@ -55,18 +56,20 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                {/* web design */}
+                {/* health app */}
                 <div className='bg-gray-100 shadow-md overflow-hidden rounded-lg p-5'>
+                    <img src={health} alt='project screen-shot' className='w-full h-48 object-contain'>
+                    </img>
                     <h3 className='font-semibold text-xl mb-2'>Mobile Development</h3>
-                    <p className='text-gray-600 mb-4'>This ia a collaborative project built during my attachment at a start-up. The stack is
-                        Android Studio and Java
+                    <p className='text-gray-600 mb-4'>A revolutionary health app that help incerease
+                        accessibilty to helthcare in remote areas
                     </p>
-                    <a href='https://github.com/Jossyvincent/Aquarech-app' target='_blank' className='text-dominant
+                    <a href='https://github.com/Jossyvincent/mediConnect' target='_blank' className='text-dominant
                     hover:underline'>View Project
                     </a>
                 </div>
                 {/*fourth project */}
-                <div className='bg-gray-100 shadow-md overflow-hidden rounded-lg p-5'>
+                {/*<div className='bg-gray-100 shadow-md overflow-hidden rounded-lg p-5'>
                     <h3 className='font-semibold text-xl mb-2'>Mobile Development</h3>
                     <p className='text-gray-600 mb-4'>This ia a collaborative project built during my attachment at a start-up. The stack is
                         Android Studio and Java
@@ -74,7 +77,7 @@ const Projects = () => {
                     <a href='https://github.com/Jossyvincent/Aquarech-app' target='_blank' className='text-dominant
                     hover:underline'>View Project
                     </a>
-                </div>
+                </div> */}
 
             </div>
         </div>
